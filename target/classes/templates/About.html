@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8" />
+	<title>RB Beauty : About</title>
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+	<link rel="stylesheet" href="" th:href="@{/css/Navigation.css}" />
+	<link rel="stylesheet" href="" th:href="@{/css/About.css}" />
+</head>
+<body>
+	<nav th:replace="~{Navigation::navbar()}">	
+	</nav>
+	
+	<div class="information">
+		
+		<h1>RB Beauty Product Shop</h1>
+		<h4>NPN :XXX/1, RUE JEAN MOULIN ,</h4>
+		<h4>METRO CHATELET</h4>
+		<h4>PARIS 4eme ARRONDISSEMENT</h4>
+		
+	</div>
+	<div class="icons">
+		<h3><i class="fa-brands fa-square-instagram" style="color: black;"></i> :@RB_2023</h3>
+		<h3><i class="fa-solid fa-phone" style="color: black;"></i> : +33-1234567890</h3>
+		<h3> <i class="fa-solid fa-envelope" style="color: black;"></i>  : abc23@gmail.com</h3>
+		
+	</div>
+</body>
+</html>
